@@ -1,0 +1,67 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  background: #fafce9 url('http://sylvesterezeani.com/img/wa/wood_pattern.png');
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+#module {
+  margin: 30px auto;
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 600px;
+  height: 700px;
+  padding: 25px 25px 30px 25px;
+  background-color: #2e2e2e;
+  box-shadow: 10px 10px 40px #000;
+}
+
+.screen {
+  background-color: #1e1e1e;
+  height: 95%;
+}
+
+/* CONTENT AREA  */
+#content {
+  height: 100%;
+  padding: 15px;
+  overflow: auto;
+  background-color: white;
+}
+/*  MENU AREA */
+.menu {
+  height: 100%;
+  background-color: lightcoral;
+  color:#fff;
+  font-weight: 700;
+}
+
+.menu-hide {
+  background-color: #fff;
+  color:lightcoral; 
+}
+
+.menu-toggle {
+  margin-top:5px;
+}
+.menu-content {
+  margin-top:30px;
+}
+
+.menu-content li a {
+  color: #fff;
+  padding:4px;
+}
+.menu-content li a:hover {
+  color: #000;
+  background:transparent;
+}
+
+.power {
+  border: 2px solid #fff;
+  width: 40px;
+  height: 40px;
+  margin: 10px auto;
+  border-radius: 100%;
+}
